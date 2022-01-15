@@ -25,7 +25,7 @@ body
  height: 842px;
  top:   -421px;
  left:  -298px;
- margin-left:10%;
+ margin-left:344px;
  
  
 
@@ -43,16 +43,17 @@ margin-right: 0px;
 {
    
     margin-top: 32px;
-    margin-left: 48px;
     float:left;
-    width: 60%;
-    background-color:;
+    width: 335px;
+    height:630px;
+
 
 }
 .right
 {
   margin-top: 32px;
-  width:40%;
+  width: 140px;
+  height: 158px;
   margin-left:50%;
   color: dimgrey;
 
@@ -69,7 +70,8 @@ img
 .content
 {
   width: 595px;
-   margin: 0 auto;
+  margin-right: 48px;
+  margin-left: 48px;
    height: 708px;
   
 }

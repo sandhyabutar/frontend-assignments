@@ -29,9 +29,11 @@ jobs:
         run: |
           cp ./Assignment1/src/* ./docs/assignment1/
           ls ./docs/assignment1
+           cp ./Assignment2/src/* ./docs/assignment2/
+           ls ./docs/assignment2
       - uses: EndBug/add-and-commit@v7
         with:
           default_author: github_actions
-          message: Move files to docs
+          message: Move files to docs/assignment1
           committer_name: GitHub Actions
           committer_email: actions@github.com
